@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"Inter";
+}
+
+body {
+    background:#151515;
+}
+
+.profile{
+    
+    background:#323035;
+    height: 47px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-text{
+    
+    color: white ;
+    font-size: 15px;
+}
+
+.meio{
+    background: #1c1c1c;
+    height: 314px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle{
+    background: #323035;
+    height: 200px;
+    width: 200px;
+    border-radius:100%;
+}
+
+.username-text{
+    
+    color: white;
+    font-size: 20px;
+    margin-top:25px ;
+}
