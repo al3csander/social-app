@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/publish-page.css">
+</head>
+<body>
+    
+    <div class="profile">
+        <h1 class="profile-text">Add Publication</h1>
+    </div>
+
+    <form action="" method="post" onsubmit="SendPublication()">
+
+        <!-- ========================================================== -->
+
+        <div class="username-box">
+            <div class="reference-name-box">
+                <h1 class="reference-name-text">Username</h1>
+            </div>
+            <input id="input-username" type="text" name="username">
+        </div>
+
+        <!-- ========================================================== -->
+        
+        <div class="description-box">
+            <div class="reference-name-box">
+                <h1 class="reference-name-text">Description</h1>
+            </div>
+            <input id="input-description" type="text" name="description">
+        </div>
+
+        <!-- ========================================================== -->
+        
+        <div class="imagelink-box">
+            <div class="reference-name-box">
+                <h1 class="reference-name-text">Image Link</h1>
+            </div>
+            <input id="input-imagelink" type="text" name="imagelink">
+        </div>
+
+        <!-- ========================================================== -->
+
+        <button class="publish-button">Publish</button>
+        
+    </form>
+
+
+
+    <script src="js/publish-page.js"></script>
+</body>
+</html>

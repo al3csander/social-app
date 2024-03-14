@@ -72,9 +72,10 @@ body{
 
 .quite{
     
-    background:#1c1c1c;
+    /* background:#1c1c1c; */
     height:268px;
     width:286px;
+    /* object-fit: contain; */
     border-radius: 5px;
     
 }
